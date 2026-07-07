@@ -1,0 +1,7 @@
+name=Gas Mask Belt Attach
+id=GasMaskBeltAttach
+description=Allows gas masks to be attached to the belt hotbar and worn from the hotbar instead of only being hand-equipped.
+poster=
+icon=
+tags=Gameplay,UI,Inventory,Clothing
+mods=Gas Mask Belt Attach
