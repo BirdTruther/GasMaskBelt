@@ -8,6 +8,21 @@ local MOD_DATA = {
     SmallBeltLeft = {
         GasMask = "BeltGasMaskLeft",
     },
+    SmallBeltRight = {
+        GasMask = "BeltGasMaskRight",
+    },
+    WebbingLeft = {
+        GasMask = "WebbingGasMaskLeft",
+    },
+    WebbingRight = {
+        GasMask = "WebbingGasMaskRight",
+    },
+    AZWebbingLeft = {
+        GasMask = "WebbingGasMaskLeft",
+    },
+    AZWebbingRight = {
+        GasMask = "WebbingGasMaskRight",
+    },
 }
 
 for _, t in pairs(ISHotbarAttachDefinition) do
