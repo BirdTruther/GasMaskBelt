@@ -8,5 +8,6 @@ Events.OnInitWorld.Add(function()
         end
     end
 
-    Adjust("Base.Hat_GasMask", "AttachmentType", "GasMask")
+    Adjust("Base.Hat_GasMask",           "AttachmentType", "GasMask")
+    Adjust("Base.Hat_BuildersRespirator", "AttachmentType", "GasMask")
 end)

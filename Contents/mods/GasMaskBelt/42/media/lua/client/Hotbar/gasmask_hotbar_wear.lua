@@ -2,6 +2,11 @@ require "Hotbar/ISHotbar"
 
 local original_equipItem = ISHotbar.equipItem
 
+local SUPPORTED_MASKS = {
+    ["Base.Hat_GasMask"]           = true,
+    ["Base.Hat_BuildersRespirator"] = true,
+}
+
 local function isItemWorn(character, targetItem)
     local wornItems = character:getWornItems()
     for i = 0, wornItems:size() - 1 do
@@ -21,7 +26,7 @@ local function getItemBodyLocation(item)
 end
 
 function ISHotbar:equipItem(item)
-    if item and item:getFullType() == "Base.Hat_GasMask" then
+    if item and SUPPORTED_MASKS[item:getFullType()] then
         ISInventoryPaneContextMenu.transferIfNeeded(self.chr, item)
 
         local bodyLocation = getItemBodyLocation(item)
