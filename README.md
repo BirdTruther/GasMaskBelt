@@ -15,6 +15,7 @@ Preferred download and install link:
 - Supports webbing slot mapping.
 - Uses wearable behavior from the hotbar instead of standard hand-equip behavior.
 - Includes attached-location and model-anchor setup for visible belt/webbing placement work.
+- Supports the Half Mask Respirator (`Base.Hat_BuildersRespirator`).
 
 ## Current status
 
@@ -23,6 +24,7 @@ Working now:
 - Gas mask can attach to supported hotbar slots.
 - Hotbar key can trigger the gas mask wear logic.
 - Belt left, belt right, and webbing location mappings are set up in Lua.
+- Half Mask Respirator support is included.
 
 Still being refined:
 
@@ -32,6 +34,7 @@ Still being refined:
 ## Target item
 
 - `Base.Hat_GasMask`
+- `Base.Hat_BuildersRespirator`
 
 ## Mod structure
 
