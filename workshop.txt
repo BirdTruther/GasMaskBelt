@@ -1,12 +1,10 @@
 version=1
 id=3759537586
 title=Attach Gas Mask to Belt
-description=Allows gas masks to be attached to the belt hotbar or webbing and worn from the hotbar instead of only being hand-equipped.
+description=Allows gas masks and now half mask respirators to be attached to the belt hotbar or webbing and worn from the hotbar instead of only being hand-equipped.
 description=
-description=Works on 42.19
+description=Works on 42.19+
 description=
 description=Tested on SP and MP
-description=
-description=Will add Half-Mask soon™️
 tags=Build 42;Clothing/Armor;Misc;QoL;WIP
 visibility=public
